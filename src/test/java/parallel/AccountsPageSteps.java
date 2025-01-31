@@ -26,7 +26,7 @@ public class AccountsPageSteps {
 		String password = credList.get(0).get("password");
 
 		DriverFactory.getDriver()
-				.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
+				.get("https://www.saucedemo.com/");
 		accountsPage = loginPage.doLogin(userName, password);
 
 	}
