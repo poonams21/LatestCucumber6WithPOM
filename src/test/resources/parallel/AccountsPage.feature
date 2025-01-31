@@ -3,7 +3,7 @@ Feature: Account Page Feature
 Background:
 Given user has already logged in to application
 |username|password|
-|dec2020secondbatch@gmail.com|Selenium@12345|
+|standard_user|secret_sauce|
 
 @accounts
 Scenario: Accounts page title
