@@ -8,5 +8,5 @@ Given user has already logged in to sauceApplication
 @accounts
 Scenario: Inventory page title
 Given user is on Inventory page
-#When user gets the title of the page
-#Then page title should be "My account - My Store"
+When user gets the title of the SauceLabPage
+Then SauceLabPage title should be "Swag Labs"

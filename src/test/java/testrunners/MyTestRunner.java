@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"classpath:parallel/SauceLab.feature"},
+		features = {"classpath:featuresFiles/SauceLab.feature"},
 		glue = {"parallel", "AppHooks"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
